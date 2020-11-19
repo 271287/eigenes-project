@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My first website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/html" href="vendor/icons/icon-font/css/Glyphter.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <!-- Side navigation -->
+        <section class="sidebar">
+            <aside class="sidebar-header">
+                <h3>Just do it!</h3>
+                <span class="fas fa-align-justify"></span>
+            </aside>
+            <nav class="sidebar-ul">
+                <a href="general">
+                    <li class="sidebar-li"><span class="fas fa-star"></span>General</li>
+                </a>
+                <a href="details">
+                    <li class="sidebar-li"><span class="fas fa-star"></span>Details</li>
+                </a>
+                <a href="links">
+                    <li class="sidebar-li"><span class="fas fa-link"></span>Links</li>
+                </a>
+                <a href="banners">
+                    <li class="sidebar-li"><span class="fas fa-star"></span>Banners</li>
+                </a>
+                <a href="personal data">
+                    <li class="sidebar-li"><span class="fas fa-star"></span>Personal data</li>
+                </a>
+                <a href="layout">
+                    <li class="sidebar-li"><span class="fas fa-star"></span>Layout</li>
+                </a>
+                <a href="postback">
+                    <li class="sidebar-li"><span class="fas fa-star"></span>Postback</li>
+                </a>
+            </nav>
+            <div class="chat">
+                <a href="#send-message">
+                    <h3>YOUR MANAGER</h3>
+                </a>
+            </div>
+        </section>
+
+        <!-- TOPBAR NAV -->
+        <nav class="top-bar-nav">
+            <ul class="topbar-ul">
+                <li class="topbar-li">
+                    <span class="wallet"></span>
+                    <span>$1,500.00</span>
+                    <span class="arrow-down"></span>
+                </li>
+                <li class="topbar-li">
+                    <a href="#notification"></a>
+                    <span class="fas fa-bell"></span>
+                </li>
+                <li class="topbar-li">
+                    <a href="#user"></a>
+                    <span class="profile"></span>
+                    <span>Leonardo Dicaprio</span>
+                </li>
+                <li class="topbar-li">
+                    <a href="#sign-out"></a>
+                    <span class="quit"></span>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- GENERAL -->
+        <section class="container" id="general-element">
+            <header class="general-title">
+                <h3>GENERAL STATISTIC</h3>
+            </header>
+            <div class="article element">
+                <div class="wrapper-flex">
+                    <div class="form-box">
+                        <input id="data-picker" class="name">
+                    </div>
+                    <button id="startChart" class="btn-std">
+                        <span class="fas fa-sync-alt"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="article element">
+                <div class="wrapper-flex double-list">
+                    <ul>
+                        <li>
+                            <span>
+                                <h4>Visit signups</h4>
+                            </span>
+                            <span>164</span>
+                        </li>
+                        <li>
+                            <span>
+                                <h4>FTD</h4>
+                            </span>
+                            <span>486</span>
+                        </li>
+                        <li>
+                            <span>
+                                <h4>Net deposit</h4>
+                            </span>
+                            <span>256</span>
+                        </li>
+                        <li>
+                            <span>
+                                <h4>Turn over</h4>
+                            </span>
+                            <span>729</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="article element chart">
+                <div class="wrapper-flex">
+                    <h4 class="chart title">Earnings chart</h4>
+                    <canvas id="myChart" class="chart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- LINKS -->
+        <section class="">
+            
+        </section>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</body>
+
+</html>
