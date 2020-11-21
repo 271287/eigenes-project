@@ -6,45 +6,65 @@
     <title>My first website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/html" href="vendor/icons/icon-font/css/Glyphter.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 </head>
 
 <body>
     <main class="main-container">
+
         <!-- Side navigation -->
         <section class="sidebar">
-            <aside class="sidebar-header">
+            <header class="sidebar-scrollbar">
                 <h3>Just do it!</h3>
-                <span class="fas fa-align-justify"></span>
-            </aside>
+                <i id="hamburger" class="fas fa-bars"></i>
+            </header>
             <nav class="sidebar-ul">
-                <a href="general">
-                    <li class="sidebar-li"><span class="fas fa-star"></span>General</li>
-                </a>
-                <a href="details">
-                    <li class="sidebar-li"><span class="fas fa-star"></span>Details</li>
-                </a>
-                <a href="links">
-                    <li class="sidebar-li"><span class="fas fa-link"></span>Links</li>
-                </a>
-                <a href="banners">
-                    <li class="sidebar-li"><span class="fas fa-star"></span>Banners</li>
-                </a>
-                <a href="personal data">
-                    <li class="sidebar-li"><span class="fas fa-star"></span>Personal data</li>
-                </a>
-                <a href="layout">
-                    <li class="sidebar-li"><span class="fas fa-star"></span>Layout</li>
-                </a>
-                <a href="postback">
-                    <li class="sidebar-li"><span class="fas fa-star"></span>Postback</li>
-                </a>
+                <li class="sidebar-li">
+                    <a href="#general">
+                        <i class="icon-general"></i> General
+                    </a>
+                </li>
+                <li class="sidebar-li">
+                    <a href="#details">
+                        <i class="icon-details"></i> Details
+                    </a>
+                </li>
+                <li class="sidebar-li">
+                    <a href="#links">
+                        <i class="icon-links"></i> Links
+                    </a>
+                </li>
+                <li class="sidebar-li">
+                    <a href="#banners">
+                        <i class="icon-banners"></i> Banners
+                    </a>
+                </li>
+                <li class="sidebar-li">
+                    <a href="#personal data">
+                        <i class="icon-personaldata"></i> Personal data
+                    </a>
+                </li>
+                <li class="sidebar-li">
+                    <a href="#layout">
+                        <i class="icon-payout"></i> Layout
+                    </a>
+                </li>
+                <li class="sidebar-li">
+                    <a href="postback">
+                        <i class="icon-postback"></i> Postback
+                    </a>
+                </li>
             </nav>
-            <div class="chat">
+            <div class="sidebar-chat">
                 <a href="#send-message">
-                    <h3>YOUR MANAGER</h3>
+                    <h2>YOUR MANAGER</h2>
+                    <img src="images/Manager.jpg">
+                    <p>Adam</p>
                 </a>
             </div>
         </section>
@@ -53,28 +73,28 @@
         <nav class="top-bar-nav">
             <ul class="topbar-ul">
                 <li class="topbar-li">
-                    <span class="wallet"></span>
+                    <i class="icon-wallet"></i>
                     <span>$1,500.00</span>
-                    <span class="arrow-down"></span>
+                    <i class="icon-arrow-down-small"></i>
                 </li>
                 <li class="topbar-li">
                     <a href="#notification"></a>
-                    <span class="fas fa-bell"></span>
+                    <i class="icon-notification"></i>
                 </li>
                 <li class="topbar-li">
                     <a href="#user"></a>
-                    <span class="profile"></span>
+                    <i class="icon-profile"></i>
                     <span>Leonardo Dicaprio</span>
                 </li>
                 <li class="topbar-li">
                     <a href="#sign-out"></a>
-                    <span class="quit"></span>
+                    <i class="icon-quit"></i>
                 </li>
             </ul>
         </nav>
 
         <!-- GENERAL -->
-        <section class="container" id="general-element">
+        <section class="page-container" id="general-element">
             <header class="general-title">
                 <h3>GENERAL STATISTIC</h3>
             </header>
@@ -84,7 +104,7 @@
                         <input id="data-picker" class="name">
                     </div>
                     <button id="startChart" class="btn-std">
-                        <span class="fas fa-sync-alt"></span>
+                        <i class="fas fa-link"></i>
                     </button>
                 </div>
             </div>
@@ -127,9 +147,101 @@
         </section>
 
         <!-- LINKS -->
-        <section class="">
-            
-        </section>
+        <section class="links-container">
+            <div class="links-header">
+                <h2 class="page-title">Links</h2>
+            </div>
+            <div class="links-btn">
+                <button class="add-btn">+ add new</button>
+            </div>
+            <div class="links-list">
+                <table class="table-links">
+                    <tr>
+                        <td>Home page</td>
+                        <td><a href="#">http://www.homepage.com</a></td>
+                        <td class="links-icon">
+                            <i class="icon-links"></i>
+                            <i class="icon-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Currently Offer</td>
+                        <td><a href="#">http://www.currently.com</a></td>
+                        <td class="links-icon">
+                            <i class="icon-links"></i>
+                            <i class="icon-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Blurpix</td>
+                        <td><a href="#">http://www.blurpix.com</a></td>
+                        <td class="links-icon">
+                            <i class="icon-links"></i>
+                            <i class="icon-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Your Site</td>
+                        <td><a href="#">http://www.yoursite.com</a></td>
+                        <td class="links-icon">
+                            <i class="icon-links"></i>
+                            <i class="icon-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td><a href="#">http://www.google.com</a></td>
+                        <td class="links-icon">
+                            <i class="icon-links"></i>
+                            <i class="icon-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Facebook</td>
+                        <td><a href="#">http://www.facebook.com</a></td>
+                        <td class="links-icon">
+                            <i class="icon-links"></i>
+                            <i class="icon-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Dashboard</td>
+                        <td><a href="#">http://www.dashboard.com</a></td>
+                        <td class="links-icon">
+                            <i class="icon-links"></i>
+                            <i class="icon-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Blurax</td>
+                        <td><a href="#">http://www.blurax.com</a></td>
+                        <td class="links-icon">
+                            <i class="icon-links"></i>
+                            <i class="icon-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Piece of wine</td>
+                        <td><a href="#">http://www.pieceofwine.com</a></td>
+                        <td class="links-icon">
+                            <i class="icon-links"></i>
+                            <i class="icon-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Twitter</td>
+                        <td><a href="#">http://www.twitter.com</a></td>
+                        <td class="links-icon">
+                            <i class="icon-links"></i>
+                            <i class="icon-trash"></i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="links-btn">
+                <button class="add-btn">+ add new</button>
+            </div>
+        </section>>
 
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
