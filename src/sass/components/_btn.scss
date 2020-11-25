@@ -1,20 +1,20 @@
 @import '../variables';
 
 .btn {
-    text-decoration: none;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 15px;
-    background: $button-dark;
-    border-radius: 10px;
-    color: white;
-  }
+  text-decoration: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 15px;
+  background: $button-dark;
+  border-radius: 10px;
+  color: white;
+}
   
-  .btn:hover {
-    background: $button-hover;
-    color: $sidebar-background-hover;
-    cursor: pointer;
-  }
+.btn:hover {
+  background: $button-hover;
+  color: $sidebar-background-hover;
+  cursor: pointer;
+}

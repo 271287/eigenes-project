@@ -1,34 +1,32 @@
-@import '../variables';
-
 *, *::before, *::after {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
-    background: $background-color;
-    font-family: $main-font;
-    line-height: 1.7;
-    display: flex;
-    display: block;
-    flex-wrap: wrap;
-  }
+  background: $background-color;
+  font-family: $main-font;
+  line-height: 1.7;
+  display: flex;
+  display: block;
+  flex-wrap: wrap;
+}
 
 .container {
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 .page__container {
-    width: calc(100% - 240px);
-    top: 50px;
-    left: 240px;
-    padding: 0 20px 20px 20px;
-    position: absolute;
-    z-index: -1;
-  }
+  width: calc(100% - 240px);
+  top: 50px;
+  left: 240px;
+  padding: 0 20px 20px 20px;
+  position: absolute;
+  z-index: -1;
+}
 
 //! GRID //
 
@@ -60,6 +58,3 @@ body {
 }
 
 // !GRID //
-
-
-

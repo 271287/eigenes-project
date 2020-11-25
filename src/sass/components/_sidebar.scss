@@ -1,46 +1,46 @@
 @import '../variables';
 
 .sidebar {
-    width: 183px;
-    background: $sidebar-background;
-    color: $sidebar-font;
-    height: 100%;
-    z-index: 22;
-    position: fixed;
-    overflow: scroll;
-  }
+  width: 183px;
+  background: $sidebar-background;
+  color: $sidebar-font;
+  height: 100%;
+  z-index: 22;
+  position: fixed;
+  overflow: scroll;
+}
 
 .sidebar-ul{
-    display: block;
-    padding: 0 0 40px 0;
-    border-bottom: 1px solid;
-    border-color: $sidebar-font;
-  }
+  display: block;
+  padding: 0 0 40px 0;
+  border-bottom: 1px solid;
+  border-color: $sidebar-font;
+}
 
 .sidebar-li{
-    margin: 10px 0 10px 0;
-    padding: 0 0 0 18px;
-    list-style: none;
-    height: 35px;
-    line-height: 35px;
-    font-family: $bar-font;
-    color: $sidebar-font;
-  }
+  margin: 10px 0 10px 0;
+  padding: 0 0 0 18px;
+  list-style: none;
+  height: 35px;
+  line-height: 35px;
+  font-family: $bar-font;
+  color: $sidebar-font;
+}
 
 .sidebar-li:hover{
-    border-left: 4px solid $button-hover;
-    padding: 0 0 0 14px;
-    background: $sidebar-background-hover;
-    color: $sidebar-font-hover;
-    cursor: pointer;
-  } 
+  border-left: 4px solid $button-hover;
+  padding: 0 0 0 14px;
+  background: $sidebar-background-hover;
+  color: $sidebar-font-hover;
+  cursor: pointer;
+} 
 
 .sidebar-chat {
-    padding-left: 18px;
+  padding-left: 18px;
 }
 
 .sidebar-chat h2 {
-    margin: 0 10px 0 10px;
+  margin: 0 10px 0 10px;
 }
 
 @media screen and (max-width: 700px) {
@@ -49,7 +49,9 @@
     height: auto;
     position: relative;
   }
+
   .sidebar ul {float: left;}
+
   .sidebar li {margin-left: 0;}
 }
 

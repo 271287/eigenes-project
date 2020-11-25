@@ -1,14 +1,14 @@
 @import '../variables';
 
 .sidebar-scrollbar {
-    padding: 0 15px 0 15px;
-    font-family: $fancy-font;
+  padding: 0 15px 0 15px;
+  font-family: $fancy-font;
 }
 
 .sidebar-scrollbar i{
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .sidebar-scrollbar i:hover{
-    color: $sidebar-font-hover;
-  }
+  color: $sidebar-font-hover;
+}
