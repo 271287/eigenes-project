@@ -1,0 +1,14 @@
+.main-container {
+    background-color: $light-color;
+  }
+
+.main-title {
+    border-bottom: solid 2px $page-background;
+}
+
+.page-title h3{
+    font-family: $main-font;
+    color: $font-color;
+    font-size: 23px;
+    padding: 12px;
+  }

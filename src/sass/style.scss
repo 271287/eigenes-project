@@ -4,8 +4,12 @@
 @import 'normalize';
 @import 'layout';
 
-/* Components 
-import "components/form_field";
+// Components 
+@import 'components/btn';
+@import 'components/media-query';
+@import 'components/navbar';
+@import 'components/scrollbar';
+@import 'components/sidebar';
 
 /* Sections 
 import "section/registration_form";

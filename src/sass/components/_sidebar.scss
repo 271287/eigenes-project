@@ -1,16 +1,14 @@
-@import '../variables';
-
 .sidebar {
-  width: 183px;
+  width: 230px;
   background: $sidebar-background;
   color: $sidebar-font;
   height: 100%;
   z-index: 22;
   position: fixed;
-  overflow: scroll;
 }
 
 .sidebar-ul{
+  list-style: none;
   display: block;
   padding: 0 0 40px 0;
   border-bottom: 1px solid;
@@ -27,6 +25,11 @@
   color: $sidebar-font;
 }
 
+.sidebar-li a {
+  text-decoration: none;
+  color: $sidebar-font;
+}
+
 .sidebar-li:hover{
   border-left: 4px solid $button-hover;
   padding: 0 0 0 14px;
@@ -35,12 +38,34 @@
   cursor: pointer;
 } 
 
-.sidebar-chat {
-  padding-left: 18px;
+.sidebar-chat h2 {
+  font-size: 16px;
+  margin: 10px 0 10px 0;
+  padding: 0 0 0 18px;
+  list-style: none;
+  height: 35px;
+  line-height: 35px;
 }
 
-.sidebar-chat h2 {
+.manager {
+  padding-left: 18px;
+  display: flex;
+}
+
+.manager span {
+  list-style: none;
+  font-size: 16px;
+  font-family: $bar-font;
+  color: $sidebar-font;
+}
+
+.manager img {
   margin: 0 10px 0 10px;
+  display: inline-block;
+  width: 40px;
+  border-radius: 100%;
+  object-fit: cover;
+  height: 40px;
 }
 
 @media screen and (max-width: 700px) {

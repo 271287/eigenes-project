@@ -1,14 +1,19 @@
-@import '../variables';
-
 .sidebar-scrollbar {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
   padding: 0 15px 0 15px;
+}
+
+.logo {
   font-family: $fancy-font;
+  font-size:28px;
 }
 
-.sidebar-scrollbar i{
-  margin-left: 40px;
+i.fa-bars {
+  margin-left: 77px;
 }
 
-.sidebar-scrollbar i:hover{
-  color: $sidebar-font-hover;
+i.fa-bars:hover {
+  color: $button-hover;
 }

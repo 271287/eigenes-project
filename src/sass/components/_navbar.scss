@@ -1,21 +1,32 @@
-@import '../variables';
-
-.top-bar-nav {
-  padding-right: 183px;
-  width: 100%;
+.topbar-nav {
+  width: calc(100% - 230px);
   height: 60px;
   position: fixed;
-  background: $background-color;
-  font-style: $bar-font;
-  color: $font-color;
+  background: $light-color;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid $font-color;
 } 
 
 .topbar-ul {
-  margin: 0;
-  padding: 0;
+  font-style: $bar-font;
+  color: $font-color;
+  justify-content: flex-end;
+  width: auto;
+  float: right;
   display: flex;
-  flex-direction: row-reverse;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: $font-color;
+  text-align: center;
+}
+
+.topbar-ul span {
+  margin: 0 10px;
+}
+
+.topbar-li {
+  display: flex;
+  align-items: baseline;
+  border-left: 1px solid $font-color;
+  padding: 10px 20px 0 20px;
 }
