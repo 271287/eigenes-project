@@ -1,4 +1,4 @@
-.btn {
+.add-btn {
   text-decoration: none;
   border: none;
   display: flex;
@@ -11,7 +11,7 @@
   color: white;
 }
   
-.btn:hover {
+.add-btn:hover {
   background: $button-hover;
   color: $sidebar-background-hover;
   cursor: pointer;

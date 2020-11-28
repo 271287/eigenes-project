@@ -1,0 +1,61 @@
+.links-header {
+  border-bottom: solid 1px $font-color;
+  border-top: solid 1px $font-color;
+}
+  
+.links-title {
+  font-family: $main-font;
+  color: $font-color;
+  font-size: 20px;
+  padding: 8px;
+  margin-left: 20px;
+}
+
+.links-list {
+  display: flex;
+  justify-content: center;
+}
+
+.links-table {
+  font-weight: bold;
+  color: $font-color;
+  font-family: $main-font;
+  border-collapse: collapse;
+  margin: auto;
+  display: flex;
+  align-content: center;
+}
+
+.links-table tr {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px $background-color;
+  cursor: pointer;
+}
+
+.links-table td {
+  width: 300px;
+  padding: 10px 0;
+  margin-left: 10px;
+
+}
+
+.links-table a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.links-pic {
+  width: auto;
+}
+
+.links-pic:hover {
+  color: $button-hover;
+  cursor: pointer;
+}
+
+.links-btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}

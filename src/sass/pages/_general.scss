@@ -1,14 +1,96 @@
 .main-container {
-    background-color: $light-color;
-  }
-
-.main-title {
-    border-bottom: solid 2px $page-background;
+  background-color: $light-color;
 }
 
-.page-title h3{
-    font-family: $main-font;
-    color: $font-color;
-    font-size: 23px;
-    padding: 12px;
-  }
+.main-title {
+  border-bottom: solid 1px $font-color;
+}
+
+.main-title h3{
+  font-family: $main-font;
+  color: $font-color;
+  font-size: 20px;
+  padding: 8px;
+  margin-left: 20px;
+}
+
+.calendar {
+  padding: 30px;
+  border-bottom: 1px solid $font-color;
+  display: flex;
+  justify-content: center;
+}
+
+.calendar-table {
+  height: 40px;
+  border: 1px solid $font-color;
+  padding: 5px;
+  border-radius: 2px;
+  display: flex;
+  align-content: center;
+}
+
+.date {
+  align-content: center;
+  padding-left: 20px;
+  padding-right: 40px;
+  border-right: 1px solid $font-color;
+}
+
+.font {
+  color: $font-color;
+}
+
+.font:hover {
+  color: $button-hover;
+  cursor: pointer;
+}
+
+.calendar-refresh {
+  color: $button-dark;
+}
+
+.calendar-refresh:hover {
+  color: $button-hover;
+  cursor: pointer;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+}
+
+.chart-container table {
+  border-spacing: 20px;
+  margin: 0 auto;
+  width: 50%; 
+}
+
+.chart-container td {
+  position: relative;
+  padding: 0;
+  border-bottom: 1px solid $background-color;
+  width: auto;
+}
+
+.chart-container h3 p {
+  display: inline;
+  font-family: $main-font;
+  color: $font-color;
+}
+
+.chart-container p {
+  position: absolute;
+  right: 0;
+  margin: 0;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+}
+
+.chart img{
+  display: flex;
+  align-content : center;
+}

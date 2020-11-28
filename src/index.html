@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/html" href="vendor/icons/icon-font/css/Glyphter.css">
+    <link rel="stylesheet" type="text/html" href="vendor/icons/css/Glyphter.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 </head>
 
@@ -97,12 +97,12 @@
         </div>
 
         <!-- GENERAL -->
-        <div class="main-container" id="general-element">
+        <div class="main-container">
             <header class="main-title">
                 <h3>General statistics</h3>
             </header>
             <div class="calendar">
-                <table class="calendar table">
+                <table class="calendar-table">
                     <tr>
                         <td class="date">
                             <span>13.08.2016</span>
@@ -110,7 +110,7 @@
                         <td class="date">
                             <span>13.08.2020</span>
                         </td>
-                        <td class="icon">
+                        <td class="font">
                             <i class="far fa-calendar"></i>
                         </td>
                     </tr>
@@ -119,108 +119,130 @@
                     <i class="fas fa-sync-alt"></i>
                 </button>
             </div>
-            <div class="article element">
-                <div class="wrapper-flex chart">
-                    <img src="images/Lista.jpg">
-                </div>
+            <div class="chart-container">
+                <table>
+                    <tr>
+                        <td class="signups">
+                            <h3>Visit signups</h3>
+                            <p>124</p>
+                        </td>
+                        <td class="deposit">
+                            <h3>Net deposit</h3>
+                            <p>564</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="FTD">
+                            <h3>FTD</h3>
+                            <p>445</p>
+                        </td>
+                        <td class="turn">
+                            <h3>Turn over</h3>
+                            <p>435</p>
+                        </td>
+                    </tr>
+                </table>
             </div>
+        <div class="chart">
+        <img src="images/Chart.jpg">
+        </div>
 
-            <!-- LINKS -->
-            <div class="links-container">
-                <div class="links-header">
-                    <h2 class="page-title">Links</h2>
-                </div>
-                <div class="links-btn">
-                    <button class="add-btn">+ add new</button>
-                </div>
-                <div class="links-list">
-                    <table class="table-links">
-                        <tr>
-                            <td>Home page</td>
-                            <td><a href="#">http://www.homepage.com</a></td>
-                            <td class="links-icon">
-                                <i class="icon-links"></i>
-                                <i class="icon-trash"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Currently Offer</td>
-                            <td><a href="#">http://www.currently.com</a></td>
-                            <td class="links-icon">
-                                <i class="icon-links"></i>
-                                <i class="icon-trash"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Blurpix</td>
-                            <td><a href="#">http://www.blurpix.com</a></td>
-                            <td class="links-icon">
-                                <i class="icon-links"></i>
-                                <i class="icon-trash"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Your Site</td>
-                            <td><a href="#">http://www.yoursite.com</a></td>
-                            <td class="links-icon">
-                                <i class="icon-links"></i>
-                                <i class="icon-trash"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Google</td>
-                            <td><a href="#">http://www.google.com</a></td>
-                            <td class="links-icon">
-                                <i class="icon-links"></i>
-                                <i class="icon-trash"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Facebook</td>
-                            <td><a href="#">http://www.facebook.com</a></td>
-                            <td class="links-icon">
-                                <i class="icon-links"></i>
-                                <i class="icon-trash"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Dashboard</td>
-                            <td><a href="#">http://www.dashboard.com</a></td>
-                            <td class="links-icon">
-                                <i class="icon-links"></i>
-                                <i class="icon-trash"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Blurax</td>
-                            <td><a href="#">http://www.blurax.com</a></td>
-                            <td class="links-icon">
-                                <i class="icon-links"></i>
-                                <i class="icon-trash"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Piece of wine</td>
-                            <td><a href="#">http://www.pieceofwine.com</a></td>
-                            <td class="links-icon">
-                                <i class="icon-links"></i>
-                                <i class="icon-trash"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Twitter</td>
-                            <td><a href="#">http://www.twitter.com</a></td>
-                            <td class="links-icon">
-                                <i class="icon-links"></i>
-                                <i class="icon-trash"></i>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="links-btn">
-                    <button class="add-btn">+ add new</button>
-                </div>
+        <!-- LINKS -->
+        <div class="links-container">
+            <div class="links-header">
+                <h2 class="links-title">Links</h2>
             </div>
+            <div class="links-btn">
+                <button class="add-btn">+ add new</button>
+            </div>
+            <div class="links-list">
+                <table class="links-table">
+                    <tr>
+                        <td>Home page</td>
+                        <td><a href="#">http://www.homepage.com</a></td>
+                        <td class="links-pic">
+                            <i class="fas fa-link"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Currently Offer</td>
+                        <td><a href="#">http://www.currently.com</a></td>
+                        <td class="links-pic">
+                            <i class="fas fa-link"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Blurpix</td>
+                        <td><a href="#">http://www.blurpix.com</a></td>
+                        <td class="links-pic">
+                            <i class="fas fa-link"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Your Site</td>
+                        <td><a href="#">http://www.yoursite.com</a></td>
+                        <td class="links-pic">
+                            <i class="fas fa-link"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td><a href="#">http://www.google.com</a></td>
+                        <td class="links-pic">
+                            <i class="fas fa-link"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Facebook</td>
+                        <td><a href="#">http://www.facebook.com</a></td>
+                        <td class="links-pic">
+                            <i class="fas fa-link"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Dashboard</td>
+                        <td><a href="#">http://www.dashboard.com</a></td>
+                        <td class="links-pic">
+                            <i class="fas fa-link"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Blurax</td>
+                        <td><a href="#">http://www.blurax.com</a></td>
+                        <td class="links-pic">
+                            <i class="fas fa-link"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Piece of wine</td>
+                        <td><a href="#">http://www.pieceofwine.com</a></td>
+                        <td class="links-pic">
+                            <i class="fas fa-link"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Twitter</td>
+                        <td><a href="#">http://www.twitter.com</a></td>
+                        <td class="links-pic">
+                            <i class="fas fa-link"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="links-btn">
+                <button class="add-btn">+ add new</button>
+            </div>
+        </div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>

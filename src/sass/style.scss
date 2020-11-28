@@ -5,14 +5,15 @@
 @import 'layout';
 
 // Components 
-@import 'components/btn';
+@import 'components/add-btn';
 @import 'components/media-query';
 @import 'components/navbar';
 @import 'components/scrollbar';
 @import 'components/sidebar';
 
 /* Sections 
-import "section/registration_form";
+import "section/registration_form";*/
 
-/* Pages / Views 
-import "pages/registration"; */
+// Pages 
+@import 'pages/general';
+@import 'pages/links';

@@ -30,3 +30,8 @@
   border-left: 1px solid $font-color;
   padding: 10px 20px 0 20px;
 }
+
+.topbar-li i:hover {
+  color: $button-hover;
+  cursor: pointer;
+}
